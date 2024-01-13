@@ -1,9 +1,6 @@
 body {
     width: 100vw;
     height: 100vh;
-}
-
-.marcar {
     display: flex;
     flex-direction: column;
     justify-content: center;
