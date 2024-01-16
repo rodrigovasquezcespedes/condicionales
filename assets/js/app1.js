@@ -1,4 +1,3 @@
-const boton= document.querySelector("#boton");
 const imagen=document.querySelector("#imagen");
 let contador= 1;
 
@@ -12,4 +11,4 @@ if(contador == 1){
     imagen.style.border="";
 }};
 
-boton.addEventListener('click',marcar);
+imagen.addEventListener('click',marcar);
