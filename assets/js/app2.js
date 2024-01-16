@@ -13,7 +13,7 @@ const sumar = () => {
         if (suma <= 10) {
             texto.innerHTML = 'Los ' + suma + ' tickets solicitados fueron autorizados';
         } else {
-            texto.innerHTML = 'Los ' + suma + ' tickets solicitados son mayores a los autorizado';
+            texto.innerHTML = 'Llevas demasiados stickers';
         }
     } else {
         texto.innerHTML = 'Los caracteres ingresados no son validos';
